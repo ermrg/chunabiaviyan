@@ -7,7 +7,9 @@
     <meta name="description" content="" />
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
     <meta name="generator" content="Hugo 0.84.0" />
-    <title>नमस्कार, म गगन थापा, हजुर हरुको सल्ला सुझाव लाई सधै मनन गर्ने छु</title>
+    <title>
+        नमस्कार, म गगन थापा, हजुर हरुको सल्ला सुझाव लाई सधै मनन गर्ने छु
+    </title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -40,6 +42,30 @@
         .form-label {
             text-align: left;
             width: 100%;
+        }
+        
+        .card {
+            border: none;
+        }
+        /* width */
+        
+         ::-webkit-scrollbar {
+            width: 10px;
+        }
+        /* Track */
+        
+         ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        /* Handle */
+        
+         ::-webkit-scrollbar-thumb {
+            background: #4caf50;
+        }
+        /* Handle on hover */
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #4caf5054;
         }
     </style>
 
@@ -77,7 +103,7 @@
             </div>
         </div>
     </nav>
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <div class="px-4 pt-5 my-5 text-center">
         <div class="container px-5 mb-5">
             <img src="img/gagan.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy" />
         </div>
@@ -89,7 +115,6 @@
             </p>
         </div>
     </div>
-    <div class="b-example-divider"></div>
 
     <div class="container px-4 py-5" id="video">
         <h2 class="pb-2 border-bottom text-center">भिडीयो</h2>
@@ -214,7 +239,7 @@
     <div class="container" id="photo">
         <h2 class="pb-2 border-bottom text-center">फोटो</h2>
 
-        <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="row mt-5" data-masonry='{"percentPosition": true }'>
             <div class="col-sm-6 col-lg-4 mb-4">
                 <div class="card p-3">
                     <img src="img/gagan.png" class="img-fluid" alt="Example image" loading="lazy" />
@@ -349,24 +374,24 @@
                         <div class="row g-3 mt-5">
                             <div class="col-sm-6">
                                 <label for="firstName" class="form-label">नाम</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" />
+                                <input type="text" class="form-control" id="firstName" placeholder="नाम" value="" />
                             </div>
 
                             <div class="col-sm-6">
                                 <label for="phone" class="form-label">ईमेल</label>
-                                <input type="text" class="form-control" id="phone" placeholder="" value="" />
+                                <input type="text" class="form-control" id="phone" placeholder="ईमेल" value="" />
                             </div>
                             <div class="col-sm-4">
                                 <label for="address" class="form-label">ठेगाना</label>
-                                <input type="text" class="form-control" id="address" placeholder="" value="" />
+                                <input type="text" class="form-control" id="address" placeholder="ठेगाना" value="" />
                             </div>
                             <div class="col-sm-4">
                                 <label for="age" class="form-label">फोन</label>
-                                <input type="text" class="form-control" id="age" placeholder="" value="" />
+                                <input type="text" class="form-control" id="age" placeholder="फोन" value="" />
                             </div>
                             <div class="col-sm-4">
                                 <label for="age" class="form-label">ऊमेर</label>
-                                <input type="text" class="form-control" id="age" placeholder="" value="" />
+                                <input type="text" class="form-control" id="age" placeholder="ऊमेर" value="" />
                             </div>
                             <div class="col-sm-12">
                                 <label for="feedback" class="form-label">सुझव</label>
@@ -376,7 +401,7 @@
 
                         <hr class="my-4" />
 
-                        <button class="w-100 btn btn-primary btn-lg mb-4" type="submit">
+                        <button class="w-100 btn btn-success btn-lg mb-4" type="submit">
                 समावेस गर्नुहोस
               </button>
                     </form>
@@ -387,7 +412,7 @@
     <div class="container my-3" id="news">
         <h2 class="pb-2 border-bottom text-center">समचार</h2>
 
-        <div class="row mb-2">
+        <div class="row mt-5">
             <div class="col-md-6">
                 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
